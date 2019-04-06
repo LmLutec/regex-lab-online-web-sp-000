@@ -25,7 +25,7 @@ end
 
 
 def valid_phone_number?(phone)
-  if phone.match(/\d\S/)
+  if phone.match(/{10}\d\S/)
   binding.pry 
     true 
   else 
